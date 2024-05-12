@@ -1,0 +1,106 @@
+header{height: 84px;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding-left: 99px;
+       padding-right: 78px;
+       }
+li{display: inline-block;
+    color: #636060;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;}
+ul{
+    display: flex;
+    gap: 50px;
+    width: 554px;
+}
+.fa-bars{display: none;}
+@media (max-width: 700px){
+    nav{display: none;}
+    .fa-bars{display: inline-block;}
+}
+/* ჰედერი მორჩა ამის */
+.s1{
+    background-image: url(../img/Rectangle1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 606px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.box1{width: 625px;
+      display: flex;
+      flex-direction: column;
+      gap: 34px;
+      align-items: center;
+      }
+.one{color: #FFF;
+    font-size: 79px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;}
+.two{color: #FFF;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;}
+@media (max-width: 600px){
+.box1 h1{font-size: 50px;}
+}
+.s2{margin-top: 84px;
+    width:  1242px;
+    height: 862px ;}
+    .column{display: inline-block;
+        width: 235px;
+        height: 680px;
+        }
+.column h1{color: #636060;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 9px;}
+.column h2{color: #010101;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;}
+.column p{color: #636060;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;}
+    .cardbox{display: inline-flex;
+        width: 924px;
+       height: 680px; 
+       flex-direction: row;
+       gap: 33px;
+       flex-wrap: wrap;
+       margin-left: 83px;
+       z-index: 2;} 
+    
+   .card{display: inline-block;
+       width: 286px;
+         height: 312px;
+        margin-right: 25px;}   
+   .topic{margin-top: 23px;
+          margin-bottom: 9px;
+       color: #343232;
+       font-family: "Roboto";
+       font-size: 19px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;}       
+   .p{color: #636060;
+       font-family: "Roboto";
+       font-size: 18px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;}   
+  
